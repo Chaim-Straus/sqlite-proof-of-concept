@@ -11,26 +11,45 @@ namespace SQLite_Testing
 
         public static void CRUDwithouttheR(string SQLcommand)
         {
-            using var command = new SQLiteCommand(connection);
+            try
             {
-                command.CommandText = SQLcommand;
-                command.ExecuteNonQuery();
+                using var command = new SQLiteCommand(connection);
+                {
+                    command.CommandText = SQLcommand;
+                    command.ExecuteNonQuery();
+                }
             }
+            catch
+            {
+                Console.WriteLine($"There was an error executing {SQLcommand}");
+            }
+            
         }
 
         public static Array CRUDwithouttheCUD(string SQLcommand)
         {
             List<Array> data = new List<Array>();
-            using (var command = new SQLiteCommand(SQLcommand, connection))
-            using (SQLiteDataReader rdr = command.ExecuteReader())
+            try
             {
-                while (rdr.Read())
+                using (var command = new SQLiteCommand(SQLcommand, connection))
+                using (SQLiteDataReader rdr = command.ExecuteReader())
                 {
-                    object[] row = {rdr.GetInt32(0), rdr.GetString(1), rdr.GetInt32(2)};
-                    data.Add(row);
+                    while (rdr.Read())
+                    {
+                        object[] row = { rdr.GetInt32(0), rdr.GetString(1), rdr.GetInt32(2) };
+                        data.Add(row);
+                    }
                 }
+                return data.ToArray();
             }
-            return data.ToArray();
+            catch
+            {
+                Console.WriteLine($"There was an error executing {SQLcommand}");
+                data.Clear();
+                object[] error = {"Error!"};
+                data.Add(error);
+                return data.ToArray();
+            }
         }
 
         static void Main(string[] args)
@@ -63,6 +82,31 @@ namespace SQLite_Testing
 
                 CRUDwithouttheR($"INSERT INTO testTable (name, balance) VALUES ('{name}', {balance})");
 
+                Console.WriteLine("Now try your own SQLite command! Note that the initialized table is called testTable.");
+                string SQLite_command = Console.ReadLine();
+                string upper = SQLite_command.ToUpper();
+                if (upper.StartsWith("SELECT"))
+                {
+                    Array subData = CRUDwithouttheCUD(SQLite_command);
+                    foreach (object[] subDatapoint in subData)
+                    {
+                        foreach (object subItem in subDatapoint)
+                        {
+                            Console.Write($"{subItem} ");
+                        }
+                        Console.WriteLine();
+                    }
+                    Console.WriteLine("FULL TABLE BELOW");
+                }
+                else if (upper.StartsWith("INSERT") || upper.StartsWith("UPDATE"))
+                {
+                    CRUDwithouttheR(SQLite_command);
+                }
+                else
+                {
+                    Console.WriteLine("Sorry, that's not a proccessable command as of right now.");
+                }
+
                 Array data = CRUDwithouttheCUD("SELECT * FROM testTable");
                 foreach (object[] datapoint in data)
                 {
@@ -71,9 +115,8 @@ namespace SQLite_Testing
                         Console.Write($"{item} ");
                     }
                     Console.WriteLine();
-                    //string column = string.Concat(datapoint);
-                    //Console.WriteLine(column);
                 }
+
             }
         }
     }
