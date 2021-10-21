@@ -116,7 +116,6 @@ namespace SQLite_Testing
                     }
                     Console.WriteLine();
                 }
-
             }
         }
     }
