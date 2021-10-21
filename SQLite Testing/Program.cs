@@ -26,7 +26,7 @@ namespace SQLite_Testing
             {
                 while (rdr.Read())
                 {
-                    object[] row = { rdr.GetInt32(0), rdr.GetString(1), rdr.GetInt32(2)};
+                    object[] row = {rdr.GetInt32(0), rdr.GetString(1), rdr.GetInt32(2)};
                     data.Add(row);
                 }
             }
