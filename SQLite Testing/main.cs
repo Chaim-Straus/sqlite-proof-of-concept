@@ -129,7 +129,7 @@ namespace SQLite_Testing
                     return login(id);
                 }
             }
-            catch { }
+            catch {}
             // how is this useful? I have no idea, but taking it out causes everything to break so...
             string[] failure = { "LOGIN ERROR" };
             return failure;
