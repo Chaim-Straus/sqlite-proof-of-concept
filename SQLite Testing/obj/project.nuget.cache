@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+OaeaTF94fdTeazS3MBwT6ggbC2RjtiVpBssNlEi+nf0kvixOulSx7fR6eQFVcT3EhDn48mwzicWiQ2BOa48vA==",
+  "dgSpecHash": "9LQysRLyQx5vYLEF0pFy7gs7AY0DX+mn3xXT1T8sdPKjSY0Dl6Ry3ZysnHHEVL5uD/37MTCW5sFjYpSIy5XJNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\SQLite Testing\\SQLite Testing.csproj",
+  "projectFilePath": "C:\\Users\\chaim\\Desktop\\sqlite-proof-of-concept\\SQLite Testing\\SQLite Testing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chaim\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\chaim\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
