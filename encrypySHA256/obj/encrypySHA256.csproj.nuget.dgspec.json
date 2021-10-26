@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\SQLite Testing\\SQLite Testing.csproj": {}
+    "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\encrypySHA256\\encrypySHA256.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\SQLite Testing\\SQLite Testing.csproj": {
+    "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\encrypySHA256\\encrypySHA256.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\SQLite Testing\\SQLite Testing.csproj",
-        "projectName": "SQLite Testing",
-        "projectPath": "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\SQLite Testing\\SQLite Testing.csproj",
+        "projectUniqueName": "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\encrypySHA256\\encrypySHA256.csproj",
+        "projectName": "encrypySHA256",
+        "projectPath": "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\encrypySHA256\\encrypySHA256.csproj",
         "packagesPath": "C:\\Users\\chaim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\SQLite Testing\\obj\\",
+        "outputPath": "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\encrypySHA256\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,12 +45,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "System.Data.SQLite": {
-              "target": "Package",
-              "version": "[1.0.115, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

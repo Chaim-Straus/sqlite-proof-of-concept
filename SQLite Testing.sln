@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLite Testing", "SQLite Testing\SQLite Testing.csproj", "{AEB3AC82-EAFE-43F3-A6C5-E4E9F7E7707B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLite Testing", "SQLite Testing\SQLite Testing.csproj", "{AEB3AC82-EAFE-43F3-A6C5-E4E9F7E7707B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "encrypySHA256", "encrypySHA256\encrypySHA256.csproj", "{1295101A-905F-4AB0-A841-2ABDA6EA3BC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AEB3AC82-EAFE-43F3-A6C5-E4E9F7E7707B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEB3AC82-EAFE-43F3-A6C5-E4E9F7E7707B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEB3AC82-EAFE-43F3-A6C5-E4E9F7E7707B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1295101A-905F-4AB0-A841-2ABDA6EA3BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1295101A-905F-4AB0-A841-2ABDA6EA3BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1295101A-905F-4AB0-A841-2ABDA6EA3BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1295101A-905F-4AB0-A841-2ABDA6EA3BC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
