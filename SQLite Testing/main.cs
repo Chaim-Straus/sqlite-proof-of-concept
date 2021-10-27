@@ -16,9 +16,7 @@ namespace SQLite_Testing
             {
                 // since Main can call Main, let's just make sure we don't raise an error by opening an open connection
                 if (connection.State != System.Data.ConnectionState.Open)
-                {
                     connection.Open();
-                }
 
                 // let's populate some information - simple defaults (michael and I are rich!)
                 PopulateData.populateDefaults();
@@ -26,6 +24,10 @@ namespace SQLite_Testing
                 // now, let's get the user to enter their id
                 Console.WriteLine("Please enter your id: ");
                 string id = Console.ReadLine();
+                bool worked = int.TryParse(id, out int _);
+                if (!(worked))
+                    Console.WriteLine("I'm sorry, that is not a valid id.");
+                    Main();
 
                 // we need to authenticate their id, so:
                 if (loginAuthentication.idExists(id))
@@ -40,19 +42,14 @@ namespace SQLite_Testing
                     
                     // ...uh oh something went wrong
                     else
-                    {
                         Console.WriteLine(loginInformation[0]);
-                    }
                 }
 
                 // ...who are you?
                 else
-                {
                     Console.WriteLine($"I'm sorry, but the account number {id} does not exist.");
-
                     // let's try again I guess
                     Main();
-                }
             }
         }
 
@@ -82,13 +79,9 @@ namespace SQLite_Testing
             string SQLcommand;
             // don't hate, it works and was the only way I could think to handle this (also lets me debug)
             if (overrideCommand == "")
-            {
                 SQLcommand = $"SELECT {requestedData} FROM testTable WHERE {where}";
-            }
             else
-            {
                 SQLcommand = overrideCommand;
-            }
 
             // let's prepare our data variable
             List<string> data = new List<string>();
@@ -98,13 +91,9 @@ namespace SQLite_Testing
             using (SQLiteDataReader reader = command.ExecuteReader())
             {
                 while (reader.Read())
-                {
                     // this makes sure that we can read multiple fields if we call for it
                     for (int i = 0; i < reader.FieldCount; i++)
-                    {
                         data.Add(reader[i].ToString());
-                    }
-                }
             }
             return data.ToArray();
         }
@@ -113,26 +102,15 @@ namespace SQLite_Testing
             // login function
         {
             // again, not QUITE sure how this could be caught (hence the empty catch), but better safe than sorry some people are idiots
-            try
-            {
-                // complicated SHA256 stuff - just matching the password
-                if (Read($"id={id}", "password")[0].ToString() == encryptSHA256.encrypt(loginAuthentication.getPassword()))
-                {
-                    // haha! they're real!
-                    return Read($"id={id}", "name, balance");
-                }
+            // complicated SHA256 stuff - just matching the password
+            if (Read($"id={id}", "password")[0].ToString() == encryptSHA256.encrypt(loginAuthentication.getPassword()))
+                // haha! they're real!
+                return Read($"id={id}", "name, balance");
 
-                // SOME SNEAKY PEOPLE ARE ABOUT
-                else
-                {
-                    Console.WriteLine("Incorrect password entered. ");
-                    return login(id);
-                }
-            }
-            catch {}
-            // how is this useful? I have no idea, but taking it out causes everything to break so...
-            string[] failure = { "LOGIN ERROR" };
-            return failure;
+            // SOME SNEAKY PEOPLE ARE ABOUT
+            else
+                Console.WriteLine("Incorrect password entered. ");
+                return login(id);
         }
     }
 }
