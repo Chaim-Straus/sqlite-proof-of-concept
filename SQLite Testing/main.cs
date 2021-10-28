@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Data.SQLite;
 
+// should be working now
+
 namespace SQLite_Testing
 {
     class main
@@ -24,32 +26,41 @@ namespace SQLite_Testing
                 // now, let's get the user to enter their id
                 Console.WriteLine("Please enter your id: ");
                 string id = Console.ReadLine();
+
                 bool worked = int.TryParse(id, out int _);
                 if (!(worked))
+                {
                     Console.WriteLine("I'm sorry, that is not a valid id.");
                     Main();
+                }
 
                 // we need to authenticate their id, so:
                 if (loginAuthentication.idExists(id))
                 {
                     // since it exists, we should get their password. to the login!
                     string[] loginInformation = login(id);
-                    
+
                     // well, something went wrong if this raises false
                     if (loginInformation[0] != "LOGIN ERROR")
+                    {
                         // no errors! woo! let's give them their information.
                         Console.WriteLine($"Hello, {loginInformation[0]}! You currently have a balance of ${loginInformation[1]}.");
-                    
+                    }
+
                     // ...uh oh something went wrong
                     else
+                    {
                         Console.WriteLine(loginInformation[0]);
+                    }
                 }
 
                 // ...who are you?
                 else
+                {
                     Console.WriteLine($"I'm sorry, but the account number {id} does not exist.");
                     // let's try again I guess
                     Main();
+                }
             }
         }
 
@@ -109,8 +120,10 @@ namespace SQLite_Testing
 
             // SOME SNEAKY PEOPLE ARE ABOUT
             else
+            {
                 Console.WriteLine("Incorrect password entered. ");
                 return login(id);
+            }
         }
     }
 }
