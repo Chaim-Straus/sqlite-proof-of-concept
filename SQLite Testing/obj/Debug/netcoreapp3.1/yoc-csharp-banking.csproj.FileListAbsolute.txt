@@ -38,4 +38,3 @@ C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\obj\Debug\netcoreapp3.1
 C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\obj\Debug\netcoreapp3.1\yoc-csharp-banking.dll
 C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\obj\Debug\netcoreapp3.1\yoc-csharp-banking.pdb
 C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\obj\Debug\netcoreapp3.1\yoc-csharp-banking.genruntimeconfig.cache
-C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\obj\Debug\netcoreapp3.1\yoc-csharp-banking.csproj.AssemblyReference.cache
