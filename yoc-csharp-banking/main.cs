@@ -17,11 +17,12 @@ namespace yoc_csharp_banking
             using (connection)
             {
                 // since Main can call Main, let's just make sure we don't raise an error by opening an open connection
-                if (connection.State != System.Data.ConnectionState.Open)
+                if (connection.State == System.Data.ConnectionState.Closed)
+                {
                     connection.Open();
-
-                // let's populate some information - simple defaults (michael and I are rich!)
-                PopulateData.populateDefaults();
+                    // let's populate some information - simple defaults (michael and I are rich!)
+                    PopulateData.populateDefaults();
+                }
 
                 // now, let's get the user to enter their id
                 Console.WriteLine("Please enter your id: ");
@@ -30,6 +31,7 @@ namespace yoc_csharp_banking
                 bool worked = int.TryParse(id, out int _);
                 if (!(worked))
                 {
+                    Console.Clear();
                     Console.WriteLine("I'm sorry, that is not a valid id.");
                     Main();
                 }
@@ -44,12 +46,27 @@ namespace yoc_csharp_banking
                     if (loginInformation[0] != "LOGIN ERROR")
                     {
                         // no errors! woo! let's give them their information.
-                        Console.WriteLine($"Hello, {loginInformation[0]}! You currently have a balance of ${loginInformation[1]}.");
+                        if (loginInformation[0] == "admin")
+                        {
+                            Console.Clear();
+                            Console.WriteLine("Hello, admin!");
+                            Console.WriteLine("What would you like to do?");
+                            admin.options();
+                            Console.Clear();
+                            Main();
+                        }
+                        else
+                        {
+                            Console.Clear();
+                            Console.WriteLine($"Hello, {loginInformation[0]}! You currently have a balance of ${loginInformation[1]}.");
+                        }
+                        
                     }
 
                     // ...uh oh something went wrong
                     else
                     {
+                        Console.Clear();
                         Console.WriteLine(loginInformation[0]);
                     }
                 }
@@ -57,6 +74,7 @@ namespace yoc_csharp_banking
                 // ...who are you?
                 else
                 {
+                    Console.Clear();
                     Console.WriteLine($"I'm sorry, but the account number {id} does not exist.");
                     // let's try again I guess
                     Main();
