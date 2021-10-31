@@ -33,7 +33,7 @@ namespace yoc_csharp_banking
 
         public static bool idExists(string id)
         {
-            return int.Parse(main.Read(null, null, $"SELECT EXISTS(SELECT * from testTable WHERE id={id})")[0]) == 1;
+            return int.Parse(main.Read(null, null, $"SELECT EXISTS(SELECT * from bankData WHERE id={id})")[0]) == 1;
         }
     }
 }

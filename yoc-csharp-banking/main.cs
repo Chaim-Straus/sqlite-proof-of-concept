@@ -47,11 +47,14 @@ namespace yoc_csharp_banking
                     {
                         // no errors! woo! let's give them their information.
                         if (loginInformation[0] == "admin")
+                            // hey! an admin has logged in!
                         {
                             Console.Clear();
                             Console.WriteLine("Hello, admin!");
                             Console.WriteLine("What would you like to do?");
+                            // let's figure out what they want to do, then do it
                             admin.options();
+                            // done!
                             Console.Clear();
                             Main();
                         }
@@ -60,7 +63,6 @@ namespace yoc_csharp_banking
                             Console.Clear();
                             Console.WriteLine($"Hello, {loginInformation[0]}! You currently have a balance of ${loginInformation[1]}.");
                         }
-                        
                     }
 
                     // ...uh oh something went wrong
@@ -108,7 +110,7 @@ namespace yoc_csharp_banking
             string SQLcommand;
             // don't hate, it works and was the only way I could think to handle this (also lets me debug)
             if (overrideCommand == "")
-                SQLcommand = $"SELECT {requestedData} FROM testTable WHERE {where}";
+                SQLcommand = $"SELECT {requestedData} FROM bankData WHERE {where}";
             else
                 SQLcommand = overrideCommand;
 
@@ -130,7 +132,6 @@ namespace yoc_csharp_banking
         public static string[] login(string id)
             // login function
         {
-            // again, not QUITE sure how this could be caught (hence the empty catch), but better safe than sorry some people are idiots
             // complicated SHA256 stuff - just matching the password
             if (Read($"id={id}", "password")[0].ToString() == encryptSHA256.encrypt(loginAuthentication.getPassword()))
                 // haha! they're real!
