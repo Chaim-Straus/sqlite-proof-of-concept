@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+OaeaTF94fdTeazS3MBwT6ggbC2RjtiVpBssNlEi+nf0kvixOulSx7fR6eQFVcT3EhDn48mwzicWiQ2BOa48vA==",
+  "dgSpecHash": "PxCtl4fxNpE+wM07gasQVE0CPMg+9P2OLbUyyAsv88Kr9+aJziX5z91hYC4WlEvMezNHBDR2P3LC+cnTlx8QLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\SQLite Testing\\SQLite Testing.csproj",
+  "projectFilePath": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\yoc-sharp-banking.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chaim\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\chaim\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

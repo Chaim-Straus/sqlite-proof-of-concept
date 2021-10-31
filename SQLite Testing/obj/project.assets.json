@@ -1158,27 +1158,24 @@
   },
   "packageFolders": {
     "C:\\Users\\chaim\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\SQLite Testing\\SQLite Testing.csproj",
-      "projectName": "SQLite Testing",
-      "projectPath": "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\SQLite Testing\\SQLite Testing.csproj",
+      "projectUniqueName": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\yoc-sharp-banking.csproj",
+      "projectName": "yoc-sharp-banking",
+      "projectPath": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\yoc-sharp-banking.csproj",
       "packagesPath": "C:\\Users\\chaim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chaim\\source\\repos\\sqlite-proof-of-concept\\SQLite Testing\\obj\\",
+      "outputPath": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\chaim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -1223,7 +1220,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

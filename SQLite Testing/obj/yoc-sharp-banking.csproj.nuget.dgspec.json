@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\SQLite Testing.csproj": {}
+    "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\yoc-sharp-banking.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\SQLite Testing.csproj": {
+    "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\yoc-sharp-banking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\SQLite Testing.csproj",
-        "projectName": "SQLite Testing",
-        "projectPath": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\SQLite Testing.csproj",
+        "projectUniqueName": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\yoc-sharp-banking.csproj",
+        "projectName": "yoc-sharp-banking",
+        "projectPath": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\yoc-sharp-banking.csproj",
         "packagesPath": "C:\\Users\\chaim\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\obj\\",
         "projectStyle": "PackageReference",
