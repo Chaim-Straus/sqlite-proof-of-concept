@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace SQLite_Testing
+namespace yoc_csharp_banking
 {
     public class encryptSHA256
     {

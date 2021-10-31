@@ -4,7 +4,7 @@ using System.Data.SQLite;
 
 // should be working now
 
-namespace SQLite_Testing
+namespace yoc_csharp_banking
 {
     class main
     {

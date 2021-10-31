@@ -1163,11 +1163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\yoc-csharp-banking.csproj",
+      "projectUniqueName": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\yoc-csharp-banking\\yoc-csharp-banking.csproj",
       "projectName": "yoc-csharp-banking",
-      "projectPath": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\yoc-csharp-banking.csproj",
+      "projectPath": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\yoc-csharp-banking\\yoc-csharp-banking.csproj",
       "packagesPath": "C:\\Users\\chaim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\SQLite Testing\\obj\\",
+      "outputPath": "C:\\Users\\chaim\\Desktop\\yoc-csharp-banking\\yoc-csharp-banking\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

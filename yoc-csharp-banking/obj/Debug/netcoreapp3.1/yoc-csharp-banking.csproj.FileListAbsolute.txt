@@ -1,0 +1,81 @@
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\yoc-csharp-banking.exe
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\yoc-csharp-banking.deps.json
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\yoc-csharp-banking.runtimeconfig.json
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\yoc-csharp-banking.runtimeconfig.dev.json
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\yoc-csharp-banking.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\yoc-csharp-banking.pdb
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\System.Data.SQLite.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\System.Data.SQLite.EF6.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\obj\Debug\netcoreapp3.1\yoc-csharp-banking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\obj\Debug\netcoreapp3.1\yoc-csharp-banking.AssemblyInfoInputs.cache
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\obj\Debug\netcoreapp3.1\yoc-csharp-banking.AssemblyInfo.cs
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\obj\Debug\netcoreapp3.1\yoc-csharp-banking.csproj.CoreCompileInputs.cache
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\obj\Debug\netcoreapp3.1\yoc-csharp-banking.csproj.CopyComplete
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\obj\Debug\netcoreapp3.1\yoc-csharp-banking.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\obj\Debug\netcoreapp3.1\yoc-csharp-banking.pdb
+C:\Users\chaim\Desktop\yoc-csharp-banking\SQLite Testing\obj\Debug\netcoreapp3.1\yoc-csharp-banking.genruntimeconfig.cache
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\yoc-csharp-banking.exe
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\yoc-csharp-banking.deps.json
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\yoc-csharp-banking.runtimeconfig.json
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\yoc-csharp-banking.runtimeconfig.dev.json
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\yoc-csharp-banking.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\yoc-csharp-banking.pdb
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\System.Data.SQLite.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\System.Data.SQLite.EF6.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.csproj.AssemblyReference.cache
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.AssemblyInfoInputs.cache
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.AssemblyInfo.cs
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.csproj.CoreCompileInputs.cache
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.csproj.CopyComplete
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.dll
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.pdb
+C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.genruntimeconfig.cache
