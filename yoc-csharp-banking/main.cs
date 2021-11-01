@@ -12,6 +12,9 @@ namespace yoc_csharp_banking
         public static string database = "database.db";
         public static SQLiteConnection connection = new SQLiteConnection($"Data Source = {database}");
 
+        // constant login
+        public static bool userLoggedIn = false;
+
         public static void Main()
         {
             using (connection)
