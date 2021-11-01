@@ -28,6 +28,9 @@ namespace yoc_csharp_banking
                 Console.WriteLine("Please enter your id: ");
                 string id = Console.ReadLine();
 
+                if (id == "")
+                    return;
+
                 bool worked = int.TryParse(id, out int _);
                 if (!(worked))
                 {
@@ -62,6 +65,12 @@ namespace yoc_csharp_banking
                         {
                             Console.Clear();
                             Console.WriteLine($"Hello, {loginInformation[0]}! You currently have a balance of ${loginInformation[1]}.");
+                            bool done = loggedIn.features(id);
+                            if (done)
+                            {
+                                Console.Clear();
+                                Main();
+                            }
                         }
                     }
 
