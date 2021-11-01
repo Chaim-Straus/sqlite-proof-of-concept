@@ -1,4 +1,5 @@
 ﻿using System;
+// using System.Text.RegularExpressions;
 
 namespace yoc_csharp_banking
 {
@@ -6,6 +7,8 @@ namespace yoc_csharp_banking
     {
         public static void addUser(string name = "default", string password = "default", int balance = 0)
         {
+            //var allowed = new Regex("^[a-zA-Z0-9 ]*$");
+
             if (name == "default")
             {
                 Console.Clear();
