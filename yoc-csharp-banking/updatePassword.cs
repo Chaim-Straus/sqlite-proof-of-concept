@@ -71,7 +71,7 @@ namespace yoc_csharp_banking
                 Console.WriteLine("Please enter your current password below.");
 
 
-                string password = GetPasswordInput();
+                string password = loginAuthentication.getPassword();
                 string passwordDigest = encryptSHA256.encrypt(password);
 
                 string correctPasswordDigest = main.Read(null, null,
@@ -95,7 +95,7 @@ namespace yoc_csharp_banking
         private static string GetNewPasswordInput()
         {
             Console.WriteLine("Please enter your new password below:");
-            return GetPasswordInput();
+            return loginAuthentication.getPassword();
         }
 
 

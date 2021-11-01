@@ -145,6 +145,7 @@ namespace yoc_csharp_banking
             // login function
         {
             // complicated SHA256 stuff - just matching the password
+            Console.WriteLine("Please enter your password:");
             if (Read($"id={id}", "password")[0].ToString() == encryptSHA256.encrypt(loginAuthentication.getPassword()))
                 // haha! they're real!
                 return Read($"id={id}", "name, balance");
