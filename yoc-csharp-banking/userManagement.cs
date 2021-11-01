@@ -30,10 +30,10 @@ namespace yoc_csharp_banking
             main.CreateUpdateOrDelete($"INSERT INTO bankData (name, password, balance) VALUES ('{name}', '{encryptSHA256.encrypt(password)}', {balance})");
         }
 
-        public static void removeUser()
+        public static Array displayData()
         {
-            Console.WriteLine("Remove Data Here! ");
-            //main.CreateUpdateOrDelete($"DELETE STUFF");
+            Array data = main.Read(null, null, $"SELECT * FROM bankData");
+            return data;
         }
     }
 }

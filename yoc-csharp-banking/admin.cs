@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace yoc_csharp_banking
 {
     class admin
     {
-        public static List<string> validOptions = new List<string> { "add user", "remove user" };
+        public static List<string> validOptions = new List<string> { "add user", "display data" };
+        public static List<string> dataFields = new List<string> { "id", "name", "password (SHA256)", "balance"};
         public static void options()
         {
             Console.WriteLine("Valid options: ");
@@ -21,8 +23,27 @@ namespace yoc_csharp_banking
                 case "add user":
                     userManagement.addUser();
                     break;
-                case "remove user":
-                    userManagement.removeUser();
+                case "display data":
+                    Array data = userManagement.displayData();
+                    int counter = 1;
+                    foreach (string field in dataFields)
+                    {
+                        Console.Write($"{field} | ");
+                    }
+                    Console.WriteLine();
+                    foreach (string point in data)
+                    {
+                        Console.Write(point);
+                        if (counter % 4 == 0)
+                        {
+                            Console.WriteLine();
+                        }
+                        else
+                            Console.Write(" | ");
+                        counter++;
+                    }
+                    Console.WriteLine("\nPress enter to exit:");
+                    Console.ReadLine();
                     break;
                 default:
                     Console.Clear();
