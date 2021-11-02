@@ -11,7 +11,7 @@ namespace yoc_csharp_banking
             Console.WriteLine("What would you like to do today?");
             foreach (string option in options)
                 Console.WriteLine($"    {option}");
-            string choice = Console.ReadLine();
+            string choice = Console.ReadLine().ToLower();
             Console.Clear();
             switch (choice)
             {

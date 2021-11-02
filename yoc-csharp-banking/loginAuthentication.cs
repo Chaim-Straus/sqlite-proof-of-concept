@@ -5,7 +5,7 @@ namespace yoc_csharp_banking
     class loginAuthentication
     {
         public static string getPassword()
-        { 
+        {
             var pass = string.Empty;
             ConsoleKey key;
             do

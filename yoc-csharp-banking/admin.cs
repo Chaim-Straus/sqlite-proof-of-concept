@@ -15,7 +15,7 @@ namespace yoc_csharp_banking
                 Console.WriteLine($"    {option}");
             }
 
-            string chosen = Console.ReadLine();
+            string chosen = Console.ReadLine().ToLower();
             switch (chosen)
             {
                 case "add user":
@@ -29,6 +29,7 @@ namespace yoc_csharp_banking
                         Console.Write($"{field} | ");
                     }
                     Console.WriteLine();
+
                     foreach (string point in data)
                     {
                         Console.Write(point);
@@ -40,6 +41,7 @@ namespace yoc_csharp_banking
                             Console.Write(" | ");
                         counter++;
                     }
+
                     Console.WriteLine("\nPress enter to exit:");
                     Console.ReadLine();
                     break;

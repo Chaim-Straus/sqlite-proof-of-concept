@@ -75,7 +75,6 @@ C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreap
 C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.AssemblyInfoInputs.cache
 C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.AssemblyInfo.cs
 C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.csproj.CoreCompileInputs.cache
-C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.csproj.CopyComplete
 C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.dll
 C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.pdb
 C:\Users\chaim\Desktop\yoc-csharp-banking\yoc-csharp-banking\obj\Debug\netcoreapp3.1\yoc-csharp-banking.genruntimeconfig.cache

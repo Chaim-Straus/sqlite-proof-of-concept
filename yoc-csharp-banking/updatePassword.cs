@@ -1,5 +1,7 @@
 ﻿using System;
 
+// MICHAEL
+
 namespace yoc_csharp_banking
 {
     public class UpdatePassword
@@ -25,34 +27,9 @@ namespace yoc_csharp_banking
             return answer == 'Y';
         }
 
-        public static string GetPasswordInput()
-        {
-            var password = string.Empty;
-            ConsoleKey key;
-            do
-            {
-                var keyInfo = Console.ReadKey(intercept: true);
-                key = keyInfo.Key;
-
-                if (key == ConsoleKey.Backspace && password.Length > 0)
-                {
-                    Console.Write("\b \b");
-                    password = password[0..^1];
-                }
-                else if (!char.IsControl(keyInfo.KeyChar))
-                {
-                    Console.Write("*");
-                    password += keyInfo.KeyChar;
-                }
-            } while (key != ConsoleKey.Enter);
-
-            Console.WriteLine();
-
-            return password;
-        }
         private static bool VerifyIdentity(string id)
         {
-            Console.WriteLine("For security purposes, we need to verify your indentity.");
+            Console.WriteLine("For security purposes, we need to verify your identity.");
 
             for (int i = 0; i < ATTEMPTS; i++)
             {
