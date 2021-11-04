@@ -1,10 +1,13 @@
-﻿using System;
+﻿// Chaim Straus
+
+using System;
 
 namespace yoc_csharp_banking
 {
     class loginAuthentication
     {
         public static string getPassword()
+            // a function to get password input while obscuring console text logging
         {
             var pass = string.Empty;
             ConsoleKey key;
@@ -31,6 +34,7 @@ namespace yoc_csharp_banking
         }
 
         public static bool idExists(string id)
+            // check to see if an id exists
         {
             return int.Parse(main.Read(null, null, $"SELECT EXISTS(SELECT * from bankData WHERE id={id})")[0]) == 1;
         }

@@ -1,6 +1,9 @@
-﻿namespace yoc_csharp_banking
+﻿// Chaim Straus
+
+namespace yoc_csharp_banking
 {
     class PopulateData
+        // populated default data into the database. not much else.
     {
         public static void populateDefaults()
         {

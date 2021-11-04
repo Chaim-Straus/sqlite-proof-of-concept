@@ -1,6 +1,6 @@
-﻿using System;
+﻿// Michael Roberts
 
-// MICHAEL
+using System;
 
 namespace yoc_csharp_banking
 {

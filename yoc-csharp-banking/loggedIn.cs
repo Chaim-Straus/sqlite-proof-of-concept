@@ -1,18 +1,25 @@
-﻿using System;
+﻿// Chaim Straus
+
+using System;
 using System.Collections.Generic;
 
 namespace yoc_csharp_banking
 {
     class loggedIn
+        // controls options when the user is logged in
     {
         public static List<string> options = new List<string> { "withdraw", "deposit", "change password", "quit"};
         public static bool features(string id)
+            // use their id when we validate features
         {
+            // print available options and let them pick one
             Console.WriteLine("What would you like to do today?");
             foreach (string option in options)
                 Console.WriteLine($"    {option}");
             string choice = Console.ReadLine().ToLower();
             Console.Clear();
+
+            // based on their choice, perform that operation
             switch (choice)
             {
                 case "withdraw":

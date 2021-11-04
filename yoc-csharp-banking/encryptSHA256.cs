@@ -1,4 +1,6 @@
-﻿using System.Security.Cryptography;
+﻿// Michael Roberts
+
+using System.Security.Cryptography;
 using System.Text;
 
 namespace yoc_csharp_banking
